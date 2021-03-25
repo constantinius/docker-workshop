@@ -15,3 +15,6 @@ In this lesson we will compile a simple C file, for which we will need some buil
 
 - Build the image from the Dockerfile and tag it as `multi-hello`
 - Run the image to see if it worked
+
+- Bonus points
+  - How big is the final image? How much space have we saved?

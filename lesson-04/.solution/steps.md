@@ -195,3 +195,19 @@ Removing intermediate container 21145ab95048
 Successfully built 942d534be86c
 Successfully tagged multi-hello:latest
 ```
+
+List the images and their respective sizes:
+
+```
+$ docker images
+REPOSITORY                                         TAG                   IMAGE ID       CREATED             SIZE
+<none>                                             <none>                da2f900c20f1   4 minutes ago       201MB
+multi-hello                                        latest                942d534be86c   4 minutes ago       69.2MB
+```
+
+Run the image
+
+```
+$ docker run -it --rm multi-hello
+Hello, World!
+```
